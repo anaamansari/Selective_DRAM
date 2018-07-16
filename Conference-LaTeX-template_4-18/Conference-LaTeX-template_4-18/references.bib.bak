@@ -1,0 +1,473 @@
+% Encoding: UTF-8
+
+@Book{kirk2010programming,
+  title     = {Programming massively parallel processors: a hands-on approach},
+  publisher = {Elsevier Science},
+  year      = {2010},
+  author    = {Kirk, David B and Hwu, Wen-mei W},
+}
+
+@Book{kirk2016programming,
+  title     = {Programming massively parallel processors: a hands-on approach},
+  publisher = {Morgan kaufmann},
+  year      = {2016},
+  author    = {Kirk, David B and Wen-Mei, W Hwu},
+}
+
+@Misc{MKL,
+  title = {Intel Math Kernel Library},
+  url   = {https://software.intel.com/en-us/mkl},
+}
+
+@inproceedings{vanhoucke2011improving,
+  title={Improving the speed of neural networks on CPUs},
+  author={Vanhoucke, Vincent and Senior, Andrew and Mao, Mark Z},
+  booktitle={Proc. Deep Learning and Unsupervised Feature Learning NIPS Workshop},
+  volume={1},
+  pages={4},
+  year={2011},
+  organization={Citeseer}
+}
+
+@inproceedings{li2017cpu,
+  title={A CPU-based algorithm for traffic optimization based on sparse convolutional neural networks},
+  author={Li, Zhizhou and Eichel, Justin and Mishra, Akshaya and Achkar, Andrew and Naik, Kshirasagar},
+  booktitle={Electrical and Computer Engineering (CCECE), 2017 IEEE 30th Canadian Conference on},
+  pages={1--5},
+  year={2017},
+  organization={IEEE}
+}
+
+@report{abuzaidoptimizing,
+  title={Optimizing CPU Performance for Convolutional Neural Networks},
+  author={Abuzaid, Firas},
+  url={http://cs231n.stanford.edu/reports/2015/pdfs/fabuzaid_final_report.pdf}
+}
+
+
+@article{chetlur2014cudnn,
+  title={cudnn: Efficient primitives for deep learning},
+  author={Chetlur, Sharan and Woolley, Cliff and Vandermersch, Philippe and Cohen, Jonathan and Tran, John and Catanzaro, Bryan and Shelhamer, Evan},
+  journal={arXiv preprint arXiv:1410.0759},
+  year={2014}
+}
+
+@article{yang2016systematic,
+  title={A systematic approach to blocking convolutional neural networks},
+  author={Yang, Xuan and Pu, Jing and Rister, Blaine Burton and Bhagdikar, Nikhil and Richardson, Stephen and Kvatinsky, Shahar and Ragan-Kelley, Jonathan and Pedram, Ardavan and Horowitz, Mark},
+  journal={arXiv preprint arXiv:1606.04209},
+  year={2016}
+}
+
+@article{xiao2017building,
+  title={Building fast and compact convolutional neural networks for offline handwritten Chinese character recognition},
+  author={Xiao, Xuefeng and Jin, Lianwen and Yang, Yafeng and Yang, Weixin and Sun, Jun and Chang, Tianhai},
+  journal={Pattern Recognition},
+  volume={72},
+  pages={72--81},
+  year={2017},
+  publisher={Elsevier}
+  }
+
+
+  @inproceedings{chakradhar2010dynamically,
+  title={A dynamically configurable coprocessor for convolutional neural networks},
+  author={Chakradhar, Srimat and Sankaradas, Murugan and Jakkula, Venkata and Cadambi, Srihari},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={38},
+  number={3},
+  pages={247--257},
+  year={2010},
+  organization={ACM}
+}
+
+
+@misc{HSong_lecture,
+  Author = {Han, Song},
+  Institution = {Stanford University},
+  Howpublished = {University Lecture},
+  Year = {2017, May 25},
+  Title = {Efficient Methods and Hardware for Deep Learning},
+  url={http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture15.pdf}
+}
+
+@book{Goodfellow-et-al-2016,
+    title={Deep Learning},
+    author={Ian Goodfellow and Yoshua Bengio and Aaron Courville},
+    publisher={MIT Press},
+    note={\url{http://www.deeplearningbook.org}},
+    year={2016}
+}
+@article{srivastava2014dropout,
+  title={Dropout: A simple way to prevent neural networks from overfitting},
+  author={Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+  journal={The Journal of Machine Learning Research},
+  volume={15},
+  number={1},
+  pages={1929--1958},
+  year={2014},
+  publisher={JMLR. org}
+}
+
+@inproceedings{chellapilla2006high,
+  title={High performance convolutional neural networks for document processing},
+  author={Chellapilla, Kumar and Puri, Sidd and Simard, Patrice},
+  booktitle={Tenth International Workshop on Frontiers in Handwriting Recognition},
+  year={2006},
+  organization={Suvisoft}
+}
+@article{sze2017efficient,
+  title={Efficient processing of deep neural networks: A tutorial and survey},
+  author={Sze, Vivienne and Chen, Yu-Hsin and Yang, Tien-Ju and Emer, Joel S},
+  journal={Proceedings of the IEEE},
+  volume={105},
+  number={12},
+  pages={2295--2329},
+  year={2017},
+  publisher={IEEE}
+}
+
+@inproceedings{cong2014minimizing,
+  title={Minimizing computation in convolutional neural networks},
+  author={Cong, Jason and Xiao, Bingjun},
+  booktitle={International conference on artificial neural networks},
+  pages={281--290},
+  year={2014},
+  organization={Springer}
+}
+@article{strassen1969gaussian,
+  title={Gaussian elimination is not optimal},
+  author={Strassen, Volker},
+  journal={Numerische mathematik},
+  volume={13},
+  number={4},
+  pages={354--356},
+  year={1969},
+  publisher={Springer}
+}
+@inproceedings{lavin2016fast,
+  title={Fast algorithms for convolutional neural networks},
+  author={Lavin, Andrew and Gray, Scott},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={4013--4021},
+  year={2016}
+}
+
+@book{winograd1980arithmetic,
+  title={Arithmetic complexity of computations},
+  author={Winograd, Shmuel},
+  volume={33},
+  year={1980},
+  publisher={Siam}
+}
+@article{zhu2017prune,
+  title={To prune, or not to prune: exploring the efficacy of pruning for model compression},
+  author={Zhu, Michael and Gupta, Suyog},
+  journal={arXiv preprint arXiv:1710.01878},
+  year={2017}
+}
+@inproceedings{han2016eie,
+  title={EIE: efficient inference engine on compressed deep neural network},
+  author={Han, Song and Liu, Xingyu and Mao, Huizi and Pu, Jing and Pedram, Ardavan and Horowitz, Mark A and Dally, William J},
+  booktitle={Computer Architecture (ISCA), 2016 ACM/IEEE 43rd Annual International Symposium on},
+  pages={243--254},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{deng2009imagenet,
+  title={Imagenet: A large-scale hierarchical image database},
+  author={Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li},
+  booktitle={Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on},
+  pages={248--255},
+  year={2009},
+  organization={IEEE}
+}
+
+@InProceedings{krizhevsky2012imagenet,
+  author    = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  title     = {Imagenet classification with deep convolutional neural networks},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2012},
+  pages     = {1097--1105},
+}
+
+@article{liu2018efficient,
+  title={Efficient sparse-winograd convolutional neural networks},
+  author={Liu, Xingyu and Pool, Jeff and Han, Song and Dally, William J},
+  journal={arXiv preprint arXiv:1802.06367},
+  year={2018}
+}
+
+@inproceedings{alwani2016fused,
+  title={Fused-layer CNN accelerators},
+  author={Alwani, Manoj and Chen, Han and Ferdman, Michael and Milder, Peter},
+  booktitle={Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on},
+  pages={1--12},
+  year={2016},
+  organization={IEEE}
+}
+@inproceedings{motamedi2016design,
+  title={Design space exploration of fpga-based deep convolutional neural networks},
+  author={Motamedi, Mohammad and Gysel, Philipp and Akella, Venkatesh and Ghiasi, Soheil},
+  booktitle={Design Automation Conference (ASP-DAC), 2016 21st Asia and South Pacific},
+  pages={575--580},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{song2016c,
+  title={C-Brain: A deep learning accelerator that tames the diversity of CNNs through adaptive data-level parallelization},
+  author={Song, Lili and Wang, Ying and Han, Yinhe and Zhao, Xin and Liu, Bosheng and Li, Xiaowei},
+  booktitle={Design Automation Conference (DAC), 2016 53nd ACM/EDAC/IEEE},
+  pages={1--6},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{zhang2015optimizing,
+  title={Optimizing fpga-based accelerator design for deep convolutional neural networks},
+  author={Zhang, Chen and Li, Peng and Sun, Guangyu and Guan, Yijin and Xiao, Bingjun and Cong, Jason},
+  booktitle={Proceedings of the 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},
+  pages={161--170},
+  year={2015},
+  organization={ACM}
+}
+
+@INPROCEEDINGS{Ansari_eff, 
+author={A. Ansari and K. Gunnam and T. Ogunfunmi}, 
+booktitle={2017 51st Asilomar Conference on Signals, Systems, and Computers}, 
+title={An efficient reconfigurable hardware accelerator for convolutional neural networks}, 
+year={2017}, 
+volume={}, 
+number={}, 
+pages={1337-1341}, 
+keywords={Clocks;Computer architecture;Engines;Hardware;Process control;Switches;AlexNet;Benes Network;Convolutional Neural Network;computational engine;efficient accelerator;network-agnostic;processing element;reconfigurable accelerator;switching control logic}, 
+doi={10.1109/ACSSC.2017.8335571}, 
+ISSN={}, 
+month={Oct},}
+
+@ARTICLE{Eyeriss, 
+author={Y. H. Chen and J. Emer and V. Sze}, 
+journal={IEEE Micro}, 
+title={Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks}, 
+year={2017}, 
+volume={}, 
+number={}, 
+pages={1-1}, 
+keywords={Computer architecture;Energy consumption;Energy efficiency;Program processors;Radio frequency;Random access memory;Shape;Accelerators;Dataflows;Deep Neural Networks;Energy-Efficient Hardware;Spatial Architecture}, 
+doi={10.1109/MM.2017.265085944}, 
+ISSN={0272-1732}, 
+month={},}
+
+@article{han2016dsd,
+  title={Dsd: Regularizing deep neural networks with dense-sparse-dense training flow},
+  author={Han, Song and Pool, Jeff and Narang, Sharan and Mao, Huizi and Tang, Shijian and Elsen, Erich and Catanzaro, Bryan and Tran, John and Dally, William J},
+  journal={arXiv preprint arXiv:1607.04381},
+  year={2016}
+}
+
+
+@inproceedings{gao2017tetris,
+  title={Tetris: Scalable and efficient neural network acceleration with 3d memory},
+  author={Gao, Mingyu and Pu, Jing and Yang, Xuan and Horowitz, Mark and Kozyrakis, Christos},
+  booktitle={Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems},
+  pages={751--764},
+  year={2017},
+  organization={ACM},
+  url={https://github.com/stanford-mast/nn_dataflow/}
+}
+
+@inproceedings{li2016pinatubo,
+  title={Pinatubo: A processing-in-memory architecture for bulk bitwise operations in emerging non-volatile memories},
+  author={Li, Shuangchen and Xu, Cong and Zou, Qiaosha and Zhao, Jishen and Lu, Yu and Xie, Yuan},
+  booktitle={Design Automation Conference (DAC), 2016 53nd ACM/EDAC/IEEE},
+  pages={1--6},
+  year={2016},
+  organization={IEEE}
+}
+@inproceedings{shen2017maximizing,
+  title={Maximizing CNN accelerator efficiency through resource partitioning},
+  author={Shen, Yongming and Ferdman, Michael and Milder, Peter},
+  booktitle={Proceedings of the 44th Annual International Symposium on Computer Architecture},
+  pages={535--547},
+  year={2017},
+  organization={ACM}
+}
+@inproceedings{shen2017escher,
+  title={Escher: A cnn accelerator with flexible buffering to minimize off-chip transfer},
+  author={Shen, Yongming and Ferdman, Michael and Milder, Peter},
+  booktitle={Field-Programmable Custom Computing Machines (FCCM), 2017 IEEE 25th Annual International Symposium on},
+  pages={93--100},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{szegedy2015going,
+  title={Going deeper with convolutions},
+  author={Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew and others},
+  year={2015},
+  organization={Cvpr}
+}
+
+
+
+@article{anwar2017structured,
+  title={Structured pruning of deep convolutional neural networks},
+  author={Anwar, Sajid and Hwang, Kyuyeon and Sung, Wonyong},
+  journal={ACM Journal on Emerging Technologies in Computing Systems (JETC)},
+  volume={13},
+  number={3},
+  pages={32},
+  year={2017},
+  publisher={ACM}
+}
+@article{mao2017exploring,
+  title={Exploring the regularity of sparse structure in convolutional neural networks},
+  author={Mao, Huizi and Han, Song and Pool, Jeff and Li, Wenshuo and Liu, Xingyu and Wang, Yu and Dally, William J},
+  journal={arXiv preprint arXiv:1705.08922},
+  year={2017}
+}
+
+BibTeX | EndNote | ACM Ref
+@inproceedings{Fowers:2012:PEC:2145694.2145704,
+ author = {Fowers, Jeremy and Brown, Greg and Cooke, Patrick and Stitt, Greg},
+ title = {A Performance and Energy Comparison of FPGAs, GPUs, and Multicores for Sliding-window Applications},
+ booktitle = {Proceedings of the ACM/SIGDA International Symposium on Field Programmable Gate Arrays},
+ series = {FPGA '12},
+ year = {2012},
+ isbn = {978-1-4503-1155-7},
+ location = {Monterey, California, USA},
+ pages = {47--56},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/2145694.2145704},
+ doi = {10.1145/2145694.2145704},
+ acmid = {2145704},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {FPGA, GPU, multicore, parallelism, sliding window, speedup},
+} 
+
+
+@inproceedings{dnnweaver:micro16,
+  title={From high-level deep neural models to FPGAs},
+  author={Sharma, Hardik and Park, Jongse and Mahajan, Divya and Amaro, Emmanuel and Kim, Joon Kyung and Shao, Chenkai and Mishra, Asit and Esmaeilzadeh, Hadi},
+  booktitle={Microarchitecture (MICRO), 2016 49th Annual IEEE/ACM International Symposium on},
+  pages={1--12},
+  year={2016},
+  organization={IEEE}
+}
+
+
+@inproceedings{he2016deep,
+  title={Deep residual learning for image recognition},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={770--778},
+  year={2016}
+}
+
+@Article{Lacey2016,
+  author  = {Lacey, Griffin and Taylor, Graham W and Areibi, Shawki},
+  title   = {Deep learning on fpgas: Past, present, and future},
+  journal = {arXiv preprint arXiv:1602.04283},
+  year    = {2016},
+}
+
+@Article{DBLP:journals/corr/abs-1708-04485,
+  author        = {Angshuman Parashar and Minsoo Rhu and Anurag Mukkara and Antonio Puglielli and Rangharajan Venkatesan and Brucek Khailany and Joel S. Emer and Stephen W. Keckler and William J. Dally},
+  title         = {{SCNN:} An Accelerator for Compressed-sparse Convolutional Neural Networks},
+  journal       = {CoRR},
+  year          = {2017},
+  volume        = {abs/1708.04485},
+  eprint        = {1708.04485},
+  url           = {http://arxiv.org/abs/1708.04485},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1708-04485},
+  timestamp     = {Wed, 06 Sep 2017 08:50:04 +0200},
+}
+
+@InProceedings{kim2016neurocube,
+  author       = {Kim, Duckhwan and Kung, Jaeha and Chai, Sek and Yalamanchili, Sudhakar and Mukhopadhyay, Saibal},
+  title        = {Neurocube: A programmable digital neuromorphic architecture with high-density 3D memory},
+  booktitle    = {Computer Architecture (ISCA), 2016 ACM/IEEE 43rd Annual International Symposium on},
+  year         = {2016},
+  organization = {IEEE},
+  pages        = {380--392},
+}
+
+@InProceedings{chi2016prime,
+  author       = {Chi, Ping and Li, Shuangchen and Xu, Cong and Zhang, Tao and Zhao, Jishen and Liu, Yongpan and Wang, Yu and Xie, Yuan},
+  title        = {PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory},
+  booktitle    = {ACM SIGARCH Computer Architecture News},
+  year         = {2016},
+  volume       = {44},
+  number       = {3},
+  organization = {IEEE Press},
+  pages        = {27--39},
+}
+
+@InProceedings{jiang2017xnor,
+  author       = {Jiang, Lei and Kim, Minje and Wen, Wujie and Wang, Danghui},
+  title        = {XNOR-POP: A processing-in-memory architecture for binary Convolutional Neural Networks in Wide-IO2 DRAMs},
+  booktitle    = {Low Power Electronics and Design (ISLPED, 2017 IEEE/ACM International Symposium on},
+  year         = {2017},
+  organization = {IEEE},
+  pages        = {1--6},
+}
+
+@InProceedings{black2013hybrid,
+  author    = {Black, Mike},
+  title     = {Hybrid Memory Cube},
+  booktitle = {Electronic Design Process Symposium},
+  year      = {2013},
+  pages     = {3--3},
+}
+
+@Article{standard2013high,
+  author  = {Standard, JEDEC},
+  title   = {High bandwidth memory (hbm) dram},
+  journal = {JESD235},
+  year    = {2013},
+}
+
+@Article{li2016pruning,
+  author  = {Li, Hao and Kadav, Asim and Durdanovic, Igor and Samet, Hanan and Graf, Hans Peter},
+  title   = {Pruning filters for efficient convnets},
+  journal = {arXiv preprint arXiv:1608.08710},
+  year    = {2016},
+}
+
+@InProceedings{wu2016quantized,
+  author    = {Wu, Jiaxiang and Leng, Cong and Wang, Yuhang and Hu, Qinghao and Cheng, Jian},
+  title     = {Quantized convolutional neural networks for mobile devices},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2016},
+  pages     = {4820--4828},
+}
+
+@InProceedings{jouppi2017datacenter,
+  author       = {Jouppi, Norman P and Young, Cliff and Patil, Nishant and Patterson, David and Agrawal, Gaurav and Bajwa, Raminder and Bates, Sarah and Bhatia, Suresh and Boden, Nan and Borchers, Al and others},
+  title        = {In-datacenter performance analysis of a tensor processing unit},
+  booktitle    = {Proceedings of the 44th Annual International Symposium on Computer Architecture},
+  year         = {2017},
+  organization = {ACM},
+  pages        = {1--12},
+}
+
+@Article{han2015deep,
+  author  = {Han, Song and Mao, Huizi and Dally, William J},
+  title   = {Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding},
+  journal = {arXiv preprint arXiv:1510.00149},
+  year    = {2015},
+}
+
+@Online{alexnet_matlab,
+  author = {Matlab},
+  title  = {Pretrained AlexNet convolutional neural network},
+  year   = {2018},
+  url    = {https://www.mathworks.com/help/nnet/ref/alexnet.html},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

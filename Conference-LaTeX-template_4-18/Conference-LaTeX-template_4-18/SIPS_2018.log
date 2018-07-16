@@ -1,0 +1,515 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.4.19)  15 JUL 2018 16:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./SIPS_2018.tex
+(./SIPS_2018.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+(c:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) (c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count94
+\float@exts=\toks15
+\float@box=\box28
+\@float@everytoks=\toks16
+\@floatcapt=\box29
+)
+(c:/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen126
+\lightrulewidth=\dimen127
+\cmidrulewidth=\dimen128
+\belowrulesep=\dimen129
+\belowbottomsep=\dimen130
+\aboverulesep=\dimen131
+\abovetopsep=\dimen132
+\cmidrulesep=\dimen133
+\cmidrulekern=\dimen134
+\defaultaddspace=\dimen135
+\@cmidla=\count95
+\@cmidlb=\count96
+\@aboverulesep=\dimen136
+\@belowrulesep=\dimen137
+\@thisruleclass=\count97
+\@lastruleclass=\count98
+\@thisrulewidth=\dimen138
+)
+(c:/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen141
+))
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks19
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks20
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks21
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(c:/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(c:/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+\c@KVtest=\count111
+\sf@farskip=\skip47
+\sf@captopadj=\dimen157
+\sf@capskip=\skip48
+\sf@nearskip=\skip49
+\c@subfigure=\count112
+\c@subfigure@save=\count113
+\c@lofdepth=\count114
+\c@subtable=\count115
+\c@subtable@save=\count116
+\c@lotdepth=\count117
+\sf@top=\skip50
+\sf@bottom=\skip51
+)
+(c:/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+** ATTENTION: Overriding command lockouts (line 314).
+(./SIPS_2018.aux)
+\openout1 = `SIPS_2018.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
+LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
+LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 315.
+LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 315.
+LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 315.
+LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 315.
+LaTeX Font Info:    ... okay on input line 315.
+
+-- Lines per column: 56 (exact).
+(c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen158
+\scratchbox=\box32
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen159
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks24
+) (c:/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 386.
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
+[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---Convolutional Neu-ral Net-works (CN
+N) have
+ []
+
+[1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<selector.png, id=12, 581.17125pt x 147.55125pt>
+File: selector.png Graphic file (type png)
+<use selector.png>
+Package pdftex.def Info: selector.png  used on input line 488.
+(pdftex.def)             Requested size: 252.94499pt x 64.22029pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 488--489
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 530.
+
+<Conv4bits.png, id=13, 421.575pt x 316.18124pt>
+File: Conv4bits.png Graphic file (type png)
+<use Conv4bits.png>
+Package pdftex.def Info: Conv4bits.png  used on input line 535.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+<Conv4bits_gran_bitlevel.png, id=14, 421.575pt x 316.18124pt>
+File: Conv4bits_gran_bitlevel.png Graphic file (type png)
+<use Conv4bits_gran_bitlevel.png>
+Package pdftex.def Info: Conv4bits_gran_bitlevel.png  used on input line 538.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+<Conv8bits.png, id=15, 421.575pt x 316.18124pt>
+File: Conv8bits.png Graphic file (type png)
+<use Conv8bits.png>
+Package pdftex.def Info: Conv8bits.png  used on input line 541.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+<Conv8bits_gran_bitlevel.png, id=16, 421.575pt x 316.18124pt>
+File: Conv8bits_gran_bitlevel.png Graphic file (type png)
+<use Conv8bits_gran_bitlevel.png>
+Package pdftex.def Info: Conv8bits_gran_bitlevel.png  used on input line 544.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+<FC4bits.png, id=17, 421.575pt x 316.18124pt>
+File: FC4bits.png Graphic file (type png)
+<use FC4bits.png>
+Package pdftex.def Info: FC4bits.png  used on input line 551.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+<FC4bits_gran_bitlevel.png, id=18, 421.575pt x 316.18124pt>
+File: FC4bits_gran_bitlevel.png Graphic file (type png)
+<use FC4bits_gran_bitlevel.png>
+Package pdftex.def Info: FC4bits_gran_bitlevel.png  used on input line 554.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+<FC8bits.png, id=19, 421.575pt x 316.18124pt>
+File: FC8bits.png Graphic file (type png)
+<use FC8bits.png>
+Package pdftex.def Info: FC8bits.png  used on input line 557.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+<FC8bits_gran_bitlevel.png, id=20, 421.575pt x 316.18124pt>
+File: FC8bits_gran_bitlevel.png Graphic file (type png)
+<use FC8bits_gran_bitlevel.png>
+Package pdftex.def Info: FC8bits_gran_bitlevel.png  used on input line 560.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+
+LaTeX Warning: Float too large for page by 4.00208pt on input line 566.
+
+<HMC.png, id=21, 504.38437pt x 144.54pt>
+File: HMC.png Graphic file (type png)
+<use HMC.png>
+Package pdftex.def Info: HMC.png  used on input line 576.
+(pdftex.def)             Requested size: 252.94499pt x 72.48595pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 576--577
+ [][] 
+ []
+
+[2 <./selector.png>] [3 <./Conv4bits.png (PNG copy)> <./Conv4bits_gran_bitlevel
+.png (PNG copy)> <./Conv8bits.png (PNG copy)> <./Conv8bits_gran_bitlevel.png (P
+NG copy)> <./FC4bits.png (PNG copy)> <./FC4bits_gran_bitlevel.png (PNG copy)> <
+./FC8bits.png (PNG copy)> <./FC8bits_gran_bitlevel.png (PNG copy)>]
+<arch.png, id=29, 724.20563pt x 567.62062pt>
+File: arch.png Graphic file (type png)
+<use arch.png>
+Package pdftex.def Info: arch.png  used on input line 587.
+(pdftex.def)             Requested size: 216.81pt x 169.92372pt.
+<WS.png, id=30, 1096.095pt x 581.17125pt>
+File: WS.png Graphic file (type png)
+<use WS.png>
+Package pdftex.def Info: WS.png  used on input line 597.
+(pdftex.def)             Requested size: 252.94499pt x 134.10997pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 597--598
+ [][] 
+ []
+
+<EnergyVisualization_AlexNet.png, id=31, 562.2606pt x 421.575pt>
+File: EnergyVisualization_AlexNet.png Graphic file (type png)
+<use EnergyVisualization_AlexNet.png>
+Package pdftex.def Info: EnergyVisualization_AlexNet.png  used on input line 63
+4.
+(pdftex.def)             Requested size: 180.67499pt x 135.4664pt.
+<EnergyVisualization_WSAlexNet.png, id=32, 562.2606pt x 421.575pt>
+File: EnergyVisualization_WSAlexNet.png Graphic file (type png)
+<use EnergyVisualization_WSAlexNet.png>
+Package pdftex.def Info: EnergyVisualization_WSAlexNet.png  used on input line 
+641.
+(pdftex.def)             Requested size: 180.67499pt x 135.4664pt.
+<Power_Est.png, id=33, 421.575pt x 316.18124pt>
+File: Power_Est.png Graphic file (type png)
+<use Power_Est.png>
+Package pdftex.def Info: Power_Est.png  used on input line 650.
+(pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
+[4 <./HMC.png> <./arch.png> <./WS.png>]
+Overfull \hbox (6.13503pt too wide) in paragraph at lines 666--676
+ [][] 
+ []
+
+
+Overfull \hbox (33.03056pt too wide) in paragraph at lines 682--692
+ [][] 
+ []
+
+(./SIPS_2018.bbl [5 <./EnergyVisualization_AlexNet.png (PNG copy)> <./EnergyVis
+ualization_WSAlexNet.png (PNG copy)> <./Power_Est.png (PNG copy)>])
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[6] (./SIPS_2018.aux) ) 
+Here is how much of TeX's memory you used:
+ 4068 strings out of 492982
+ 64156 string characters out of 6136240
+ 138871 words of memory out of 5000000
+ 7567 multiletter control sequences out of 15000+600000
+ 43446 words of font info for 88 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 41i,15n,49p,1760b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}
+<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.p
+fb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SIPS_2018.pdf (6 pages, 513781 bytes).
+PDF statistics:
+ 71 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+
