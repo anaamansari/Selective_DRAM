@@ -474,6 +474,21 @@ To do this, we aim to have a processing-in-memory architecture  using stacked DR
 
 In this section, we explain the rationale and analysis that lies at the foundation of our approach. The following analysis gives an insight about the superfluous repetitiveness of the shared weights. We perform this analysis on many levels of granularity i.e. bit precisions such as 1 bit, 4bit (a nibble) and 8bit (a byte). Studying the redundancy at various precision levels helps us select a bus size for the DRAM that will be best suited for our architecture and design. For this analysis, we use pre-trained AlexNet weights as our source for weight\cite{alexnet_matlab}.
 
+\begin{figure}[!hb]
+\centering
+\begin{tabular}{c}
+\subfloat[8 bit weight, 1 bit granularity]{\includegraphics[width=2.5in]{1bitgn}
+\label{1bitgn}}
+\\
+\subfloat[8 bit weight, 4 bit granularity]{\includegraphics[width=2.5in]{4bitgn}
+\label{4bitgn}}
+\\
+\subfloat[8bit weight, 8bit granularity]{\includegraphics[width=2.5in]{8bitgn} 
+\label{8bitgn}}
+\\
+\end{tabular}
+\end{figure}
+
 \subsection{Weight Sharing} 
 As a part of our analysis, we first convert the AlexNet weights into a shared format. Weight sharing is a pruning technique that is used to overcome a network being over-fitted. It was discovered mainly to combat over-fitting a network however, it helps  compress a model too \cite{zhu2017prune, li2016pruning, han2015deep, anwar2017structured}. A compressed model is retrained with the shared weights. Weight sharing makes retraining very efficient and also helps the models be more generalized and less over-fitted. 
 

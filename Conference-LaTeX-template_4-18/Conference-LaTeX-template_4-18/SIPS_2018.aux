@@ -21,57 +21,25 @@
 \citation{alexnet_matlab}
 \citation{zhu2017prune,li2016pruning,han2015deep,anwar2017structured}
 \citation{han2016dsd}
-\citation{Ansari_eff}
-\citation{standard2013high,black2013hybrid}
 \@writefile{toc}{\contentsline {section}{\numberline {III}Analysis}{2}}
+\newlabel{1bitgn}{{1a}{2}}
+\newlabel{sub@1bitgn}{{(a)}{a}}
+\newlabel{4bitgn}{{1b}{2}}
+\newlabel{sub@4bitgn}{{(b)}{b}}
+\newlabel{8bitgn}{{1c}{2}}
+\newlabel{sub@8bitgn}{{(c)}{c}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {8 bit weight, 1 bit granularity}}}{2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {8 bit weight, 4 bit granularity}}}{2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {8bit weight, 8bit granularity}}}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Weight Sharing}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Selective PassThrough}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Weight selector Logic}}{2}}
 \newlabel{sel}{{1}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Redundancy Analysis}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {IV}Design and Architecture}{2}}
-\newlabel{Con_Red}{{2a}{3}}
-\newlabel{sub@Con_Red}{{(a)}{a}}
-\newlabel{Con_Red_bits}{{2b}{3}}
-\newlabel{sub@Con_Red_bits}{{(b)}{b}}
-\newlabel{Con_Red_8}{{2c}{3}}
-\newlabel{sub@Con_Red_8}{{(c)}{c}}
-\newlabel{Con_Red_8_bits}{{2d}{3}}
-\newlabel{sub@Con_Red_8_bits}{{(d)}{d}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Redundancy analysis of the Convolutional Layer Weights}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {4bit weight, 4bit granularity}}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {4bit weight, 1bit granularity}}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {8bit weight, 8bit granularity}}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {8bit weight, 1bit granularity}}}{3}}
-\newlabel{Conv_Red}{{2}{3}}
-\newlabel{FC_Red_4bits}{{3a}{3}}
-\newlabel{sub@FC_Red_4bits}{{(a)}{a}}
-\newlabel{FC_Red_bits}{{3b}{3}}
-\newlabel{sub@FC_Red_bits}{{(b)}{b}}
-\newlabel{FC_Red_8bits_256lev}{{3c}{3}}
-\newlabel{sub@FC_Red_8bits_256lev}{{(c)}{c}}
-\newlabel{FC_Red_8bits_256lev_bits}{{3d}{3}}
-\newlabel{sub@FC_Red_8bits_256lev_bits}{{(d)}{d}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Redundancy analysis of the Fully Connected Layer Weights}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {4bit weights, 4bit granularity}}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {4bit weights, 1bit granularity}}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {8bit weights, 8bit granularity}}}{3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {8bit weights, 1bit granularity}}}{3}}
-\newlabel{FC_Red}{{3}{3}}
+\citation{Ansari_eff}
+\citation{standard2013high,black2013hybrid}
 \citation{Ansari_eff}
 \citation{energy_est_mit}
-\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Redundancy Analysis for 4 bit weights with 4 bit granularity}}{4}}
-\newlabel{Red_Anal}{{II}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Processing in Memory}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces HMC model}}{4}}
-\newlabel{HMC}{{4}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Weight Selector}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {V}Power Estimation}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Data Selector Architecture}}{4}}
-\newlabel{arch}{{5}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Weight Selector Logic in DRAM}}{4}}
-\newlabel{WS}{{6}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}HDL Implementation}{4}}
 \bibstyle{IEEEtran}
 \bibdata{IEEEabrv,references}
 \bibcite{krizhevsky2012imagenet}{1}
@@ -79,22 +47,61 @@
 \bibcite{he2016deep}{3}
 \bibcite{szegedy2015going}{4}
 \bibcite{Lacey2016}{5}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Design and Architecture}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Processing in Memory}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces HMC model}}{3}}
+\newlabel{HMC}{{4}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Weight Selector}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Power Estimation}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}HDL Implementation}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Results and Conclusion}{3}}
+\@writefile{toc}{\contentsline {section}{References}{3}}
+\newlabel{Con_Red}{{2a}{4}}
+\newlabel{sub@Con_Red}{{(a)}{a}}
+\newlabel{Con_Red_bits}{{2b}{4}}
+\newlabel{sub@Con_Red_bits}{{(b)}{b}}
+\newlabel{Con_Red_8}{{2c}{4}}
+\newlabel{sub@Con_Red_8}{{(c)}{c}}
+\newlabel{Con_Red_8_bits}{{2d}{4}}
+\newlabel{sub@Con_Red_8_bits}{{(d)}{d}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Redundancy analysis of the Convolutional Layer Weights}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {4bit weight, 4bit granularity}}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {4bit weight, 1bit granularity}}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {8bit weight, 8bit granularity}}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {8bit weight, 1bit granularity}}}{4}}
+\newlabel{Conv_Red}{{2}{4}}
+\newlabel{FC_Red_4bits}{{3a}{4}}
+\newlabel{sub@FC_Red_4bits}{{(a)}{a}}
+\newlabel{FC_Red_bits}{{3b}{4}}
+\newlabel{sub@FC_Red_bits}{{(b)}{b}}
+\newlabel{FC_Red_8bits_256lev}{{3c}{4}}
+\newlabel{sub@FC_Red_8bits_256lev}{{(c)}{c}}
+\newlabel{FC_Red_8bits_256lev_bits}{{3d}{4}}
+\newlabel{sub@FC_Red_8bits_256lev_bits}{{(d)}{d}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Redundancy analysis of the Fully Connected Layer Weights}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {4bit weights, 4bit granularity}}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {4bit weights, 1bit granularity}}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {8bit weights, 8bit granularity}}}{4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {8bit weights, 1bit granularity}}}{4}}
+\newlabel{FC_Red}{{3}{4}}
 \bibcite{Fowers:2012:PEC:2145694.2145704}{6}
-\bibcite{sze2017efficient}{7}
-\bibcite{chakradhar2010dynamically}{8}
-\bibcite{zhang2015optimizing}{9}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Redundancy Analysis for 4 bit weights with 4 bit granularity}}{5}}
+\newlabel{Red_Anal}{{II}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Data Selector Architecture}}{5}}
+\newlabel{arch}{{5}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Weight Selector Logic in DRAM}}{5}}
+\newlabel{WS}{{6}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Dynamic Power (DP) and Static Power (SP) for Baseline AlexNet and WS-ST AlexNet in Watts}}{5}}
+\newlabel{DPSP}{{III}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Normalized Energy Consumption for AlexNet}}{5}}
 \newlabel{Power_Est_1}{{7}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Normalized Power Consumption for WS-ST AlexNet}}{5}}
 \newlabel{Power_Est_2}{{8}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Normalized Power Consumption due to weights}}{5}}
 \newlabel{Power_Est_3}{{9}{5}}
-\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Dynamic Power (DP) and Static Power (SP) for Baseline AlexNet and WS-ST AlexNet in Watts}}{5}}
-\newlabel{DPSP}{{III}{5}}
-\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Logic and IO power for Baseline AlexNet and WS-ST AlexNet in Watts }}{5}}
-\newlabel{LogIO}{{IV}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {VII}Results and Conclusion}{5}}
-\@writefile{toc}{\contentsline {section}{References}{5}}
+\bibcite{sze2017efficient}{7}
+\bibcite{chakradhar2010dynamically}{8}
+\bibcite{zhang2015optimizing}{9}
 \bibcite{Eyeriss}{10}
 \bibcite{zhu2017prune}{11}
 \bibcite{DBLP:journals/corr/abs-1708-04485}{12}
@@ -116,3 +123,5 @@
 \bibcite{anwar2017structured}{28}
 \bibcite{Ansari_eff}{29}
 \bibcite{energy_est_mit}{30}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Logic and IO power for Baseline AlexNet and WS-ST AlexNet in Watts }}{6}}
+\newlabel{LogIO}{{IV}{6}}

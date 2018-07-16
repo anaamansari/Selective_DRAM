@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.4.19)  15 JUL 2018 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.4.19)  15 JUL 2018 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,121 +363,137 @@ N) have
 
 
 ]
-<selector.png, id=12, 581.17125pt x 147.55125pt>
+<1bitgn.png, id=12, 526.1256pt x 128.6406pt>
+File: 1bitgn.png Graphic file (type png)
+<use 1bitgn.png>
+Package pdftex.def Info: 1bitgn.png  used on input line 481.
+(pdftex.def)             Requested size: 180.67499pt x 44.17691pt.
+<4bitgn.png, id=14, 526.1256pt x 128.6406pt>
+File: 4bitgn.png Graphic file (type png)
+<use 4bitgn.png>
+Package pdftex.def Info: 4bitgn.png  used on input line 484.
+(pdftex.def)             Requested size: 180.67499pt x 44.17691pt.
+<8bitgn.png, id=15, 526.1256pt x 128.6406pt>
+File: 8bitgn.png Graphic file (type png)
+<use 8bitgn.png>
+Package pdftex.def Info: 8bitgn.png  used on input line 487.
+(pdftex.def)             Requested size: 180.67499pt x 44.17691pt.
+<selector.png, id=16, 581.17125pt x 147.55125pt>
 File: selector.png Graphic file (type png)
 <use selector.png>
-Package pdftex.def Info: selector.png  used on input line 488.
+Package pdftex.def Info: selector.png  used on input line 503.
 (pdftex.def)             Requested size: 252.94499pt x 64.22029pt.
 
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 488--489
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 503--504
  [][] 
  []
 
+[2 <./1bitgn.png> <./4bitgn.png> <./8bitgn.png> <./selector.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 530.
+               Default added (so using `tbp') on input line 545.
 
-<Conv4bits.png, id=13, 421.575pt x 316.18124pt>
+<Conv4bits.png, id=24, 421.575pt x 316.18124pt>
 File: Conv4bits.png Graphic file (type png)
 <use Conv4bits.png>
-Package pdftex.def Info: Conv4bits.png  used on input line 535.
+Package pdftex.def Info: Conv4bits.png  used on input line 550.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-<Conv4bits_gran_bitlevel.png, id=14, 421.575pt x 316.18124pt>
+<Conv4bits_gran_bitlevel.png, id=25, 421.575pt x 316.18124pt>
 File: Conv4bits_gran_bitlevel.png Graphic file (type png)
 <use Conv4bits_gran_bitlevel.png>
-Package pdftex.def Info: Conv4bits_gran_bitlevel.png  used on input line 538.
+Package pdftex.def Info: Conv4bits_gran_bitlevel.png  used on input line 553.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-<Conv8bits.png, id=15, 421.575pt x 316.18124pt>
+<Conv8bits.png, id=26, 421.575pt x 316.18124pt>
 File: Conv8bits.png Graphic file (type png)
 <use Conv8bits.png>
-Package pdftex.def Info: Conv8bits.png  used on input line 541.
+Package pdftex.def Info: Conv8bits.png  used on input line 556.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-<Conv8bits_gran_bitlevel.png, id=16, 421.575pt x 316.18124pt>
+<Conv8bits_gran_bitlevel.png, id=27, 421.575pt x 316.18124pt>
 File: Conv8bits_gran_bitlevel.png Graphic file (type png)
 <use Conv8bits_gran_bitlevel.png>
-Package pdftex.def Info: Conv8bits_gran_bitlevel.png  used on input line 544.
+Package pdftex.def Info: Conv8bits_gran_bitlevel.png  used on input line 559.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-<FC4bits.png, id=17, 421.575pt x 316.18124pt>
+<FC4bits.png, id=28, 421.575pt x 316.18124pt>
 File: FC4bits.png Graphic file (type png)
 <use FC4bits.png>
-Package pdftex.def Info: FC4bits.png  used on input line 551.
+Package pdftex.def Info: FC4bits.png  used on input line 566.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-<FC4bits_gran_bitlevel.png, id=18, 421.575pt x 316.18124pt>
+<FC4bits_gran_bitlevel.png, id=29, 421.575pt x 316.18124pt>
 File: FC4bits_gran_bitlevel.png Graphic file (type png)
 <use FC4bits_gran_bitlevel.png>
-Package pdftex.def Info: FC4bits_gran_bitlevel.png  used on input line 554.
+Package pdftex.def Info: FC4bits_gran_bitlevel.png  used on input line 569.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-<FC8bits.png, id=19, 421.575pt x 316.18124pt>
+<FC8bits.png, id=30, 421.575pt x 316.18124pt>
 File: FC8bits.png Graphic file (type png)
 <use FC8bits.png>
-Package pdftex.def Info: FC8bits.png  used on input line 557.
+Package pdftex.def Info: FC8bits.png  used on input line 572.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-<FC8bits_gran_bitlevel.png, id=20, 421.575pt x 316.18124pt>
+<FC8bits_gran_bitlevel.png, id=31, 421.575pt x 316.18124pt>
 File: FC8bits_gran_bitlevel.png Graphic file (type png)
 <use FC8bits_gran_bitlevel.png>
-Package pdftex.def Info: FC8bits_gran_bitlevel.png  used on input line 560.
+Package pdftex.def Info: FC8bits_gran_bitlevel.png  used on input line 575.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
 
-LaTeX Warning: Float too large for page by 4.00208pt on input line 566.
+LaTeX Warning: Float too large for page by 4.00208pt on input line 581.
 
-<HMC.png, id=21, 504.38437pt x 144.54pt>
+<HMC.png, id=32, 504.38437pt x 144.54pt>
 File: HMC.png Graphic file (type png)
 <use HMC.png>
-Package pdftex.def Info: HMC.png  used on input line 576.
+Package pdftex.def Info: HMC.png  used on input line 591.
 (pdftex.def)             Requested size: 252.94499pt x 72.48595pt.
 
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 576--577
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 591--592
  [][] 
  []
 
-[2 <./selector.png>] [3 <./Conv4bits.png (PNG copy)> <./Conv4bits_gran_bitlevel
-.png (PNG copy)> <./Conv8bits.png (PNG copy)> <./Conv8bits_gran_bitlevel.png (P
-NG copy)> <./FC4bits.png (PNG copy)> <./FC4bits_gran_bitlevel.png (PNG copy)> <
-./FC8bits.png (PNG copy)> <./FC8bits_gran_bitlevel.png (PNG copy)>]
-<arch.png, id=29, 724.20563pt x 567.62062pt>
+<arch.png, id=33, 724.20563pt x 567.62062pt>
 File: arch.png Graphic file (type png)
 <use arch.png>
-Package pdftex.def Info: arch.png  used on input line 587.
+Package pdftex.def Info: arch.png  used on input line 602.
 (pdftex.def)             Requested size: 216.81pt x 169.92372pt.
-<WS.png, id=30, 1096.095pt x 581.17125pt>
+<WS.png, id=34, 1096.095pt x 581.17125pt>
 File: WS.png Graphic file (type png)
 <use WS.png>
-Package pdftex.def Info: WS.png  used on input line 597.
+Package pdftex.def Info: WS.png  used on input line 612.
 (pdftex.def)             Requested size: 252.94499pt x 134.10997pt.
 
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 597--598
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 612--613
  [][] 
  []
 
-<EnergyVisualization_AlexNet.png, id=31, 562.2606pt x 421.575pt>
+<EnergyVisualization_AlexNet.png, id=35, 562.2606pt x 421.575pt>
 File: EnergyVisualization_AlexNet.png Graphic file (type png)
 <use EnergyVisualization_AlexNet.png>
-Package pdftex.def Info: EnergyVisualization_AlexNet.png  used on input line 63
-4.
+Package pdftex.def Info: EnergyVisualization_AlexNet.png  used on input line 64
+9.
 (pdftex.def)             Requested size: 180.67499pt x 135.4664pt.
-<EnergyVisualization_WSAlexNet.png, id=32, 562.2606pt x 421.575pt>
+<EnergyVisualization_WSAlexNet.png, id=36, 562.2606pt x 421.575pt>
 File: EnergyVisualization_WSAlexNet.png Graphic file (type png)
 <use EnergyVisualization_WSAlexNet.png>
 Package pdftex.def Info: EnergyVisualization_WSAlexNet.png  used on input line 
-641.
+656.
 (pdftex.def)             Requested size: 180.67499pt x 135.4664pt.
-<Power_Est.png, id=33, 421.575pt x 316.18124pt>
+<Power_Est.png, id=37, 421.575pt x 316.18124pt>
 File: Power_Est.png Graphic file (type png)
 <use Power_Est.png>
-Package pdftex.def Info: Power_Est.png  used on input line 650.
+Package pdftex.def Info: Power_Est.png  used on input line 665.
 (pdftex.def)             Requested size: 180.67499pt x 135.50659pt.
-[4 <./HMC.png> <./arch.png> <./WS.png>]
-Overfull \hbox (6.13503pt too wide) in paragraph at lines 666--676
+
+Overfull \hbox (6.13503pt too wide) in paragraph at lines 681--691
  [][] 
  []
 
 
-Overfull \hbox (33.03056pt too wide) in paragraph at lines 682--692
+Overfull \hbox (33.03056pt too wide) in paragraph at lines 697--707
  [][] 
  []
 
-(./SIPS_2018.bbl [5 <./EnergyVisualization_AlexNet.png (PNG copy)> <./EnergyVis
-ualization_WSAlexNet.png (PNG copy)> <./Power_Est.png (PNG copy)>])
+(./SIPS_2018.bbl [3 <./HMC.png>] [4 <./Conv4bits.png (PNG copy)> <./Conv4bits_g
+ran_bitlevel.png (PNG copy)> <./Conv8bits.png (PNG copy)> <./Conv8bits_gran_bit
+level.png (PNG copy)> <./FC4bits.png (PNG copy)> <./FC4bits_gran_bitlevel.png (
+PNG copy)> <./FC8bits.png (PNG copy)> <./FC8bits_gran_bitlevel.png (PNG copy)>]
+[5 <./arch.png> <./WS.png> <./EnergyVisualization_AlexNet.png (PNG copy)> <./En
+ergyVisualization_WSAlexNet.png (PNG copy)> <./Power_Est.png (PNG copy)>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -491,10 +507,10 @@ Before submitting the final camera ready copy, remember to:
 
 [6] (./SIPS_2018.aux) ) 
 Here is how much of TeX's memory you used:
- 4068 strings out of 492982
- 64156 string characters out of 6136240
- 138871 words of memory out of 5000000
- 7567 multiletter control sequences out of 15000+600000
+ 4089 strings out of 492982
+ 64423 string characters out of 6136240
+ 144928 words of memory out of 5000000
+ 7585 multiletter control sequences out of 15000+600000
  43446 words of font info for 88 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,15n,49p,1760b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -506,10 +522,10 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/201
 7/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SIPS_2018.pdf (6 pages, 513781 bytes).
+Output written on SIPS_2018.pdf (6 pages, 553978 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
