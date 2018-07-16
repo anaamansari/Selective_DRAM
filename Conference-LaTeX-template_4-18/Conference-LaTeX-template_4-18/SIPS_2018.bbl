@@ -26,13 +26,6 @@ A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
   deep convolutional neural networks,'' in \emph{Advances in neural information
   processing systems}, 2012, pp. 1097--1105.
 
-\bibitem{han2016eie}
-S.~Han, X.~Liu, H.~Mao, J.~Pu, A.~Pedram, M.~A. Horowitz, and W.~J. Dally,
-  ``Eie: efficient inference engine on compressed deep neural network,'' in
-  \emph{Computer Architecture (ISCA), 2016 ACM/IEEE 43rd Annual International
-  Symposium on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp.
-  243--254.
-
 \bibitem{he2016deep}
 K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
   recognition,'' in \emph{Proceedings of the IEEE conference on computer vision
@@ -61,6 +54,13 @@ J.~Fowers, G.~Brown, P.~Cooke, and G.~Stitt, ``A performance and energy
 V.~Sze, Y.-H. Chen, T.-J. Yang, and J.~S. Emer, ``Efficient processing of deep
   neural networks: A tutorial and survey,'' \emph{Proceedings of the IEEE},
   vol. 105, no.~12, pp. 2295--2329, 2017.
+
+\bibitem{han2016eie}
+S.~Han, X.~Liu, H.~Mao, J.~Pu, A.~Pedram, M.~A. Horowitz, and W.~J. Dally,
+  ``Eie: efficient inference engine on compressed deep neural network,'' in
+  \emph{Computer Architecture (ISCA), 2016 ACM/IEEE 43rd Annual International
+  Symposium on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp.
+  243--254.
 
 \bibitem{chakradhar2010dynamically}
 S.~Chakradhar, M.~Sankaradas, V.~Jakkula, and S.~Cadambi, ``A dynamically
@@ -109,6 +109,11 @@ S.~Han, J.~Pool, S.~Narang, H.~Mao, S.~Tang, E.~Elsen, B.~Catanzaro, J.~Tran,
   and W.~J. Dally, ``Dsd: Regularizing deep neural networks with
   dense-sparse-dense training flow,'' \emph{arXiv preprint arXiv:1607.04381},
   2016.
+
+\bibitem{han2015deep}
+S.~Han, H.~Mao, and W.~J. Dally, ``Deep compression: Compressing deep neural
+  networks with pruning, trained quantization and huffman coding,'' \emph{arXiv
+  preprint arXiv:1510.00149}, 2015.
 
 \bibitem{li2016pruning}
 H.~Li, A.~Kadav, I.~Durdanovic, H.~Samet, and H.~P. Graf, ``Pruning filters for
@@ -169,11 +174,6 @@ M.~Black, ``Hybrid memory cube,'' in \emph{Electronic Design Process
 
 \bibitem{standard2013high}
 J.~Standard, ``High bandwidth memory (hbm) dram,'' \emph{JESD235}, 2013.
-
-\bibitem{han2015deep}
-S.~Han, H.~Mao, and W.~J. Dally, ``Deep compression: Compressing deep neural
-  networks with pruning, trained quantization and huffman coding,'' \emph{arXiv
-  preprint arXiv:1510.00149}, 2015.
 
 \bibitem{alexnet_matlab}
 \BIBentryALTinterwordspacing
