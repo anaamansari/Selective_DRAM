@@ -527,7 +527,21 @@ we are able to find more redundancy with smaller granularity. Both figures \ref{
 Looking at the result, we chosoe the 4 bit granularity as it exploits a good amount redundancy while being manageable in terms of hardware engineering. The savings with 4 bit weights and 4 bit granularity is described in table \ref{Red_Anal}.
 
 \color{red}
-The weights are preprocessed into 4 bit and are not not dynamic. 
+The combined process of pruning combined with quantization of weights from 32 bit to 5 bits in \cite{han2015deep} results in networks that can potentially fit on the on-chip SRAM rather than the offchip DRAM while maintaining the accuracy nearly the same. Thus we use pruned weights that we quantize into 4bits. They will remain static for the purpose of this research.
+
+\begin{table*}[!hb]
+\centering
+\begin{tabular}{cccccc}
+\hline
+			& orignial & Compressed & Compression & Original & Compressed \\
+Network    & size(MB)& size(MB)   & Ratio & Accuracy & Accuracy   \\ \hline
+AlexNet    & 240           & 6.9             & 35x               & 80.27\%  & 80.30\%    \\
+VGGNet     & 550           & 11.3            & 49x               & 88.68\%  & 89.09\%    \\
+GooglNet   & 28            & 2.8             & 10x               & 88.90\%  & 88.92\%    \\
+SqueezeNet & 4.8           & 0.47            & 10x               & 80.32\%  & 80.35\%    \\ \hline
+\end{tabular}
+\end{table*}
+
 \color{black}
 
 \color{magenta}
