@@ -388,7 +388,7 @@ Santa Clara, California 95053}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-Convolutional Neural Networks (CNN) have changed the direction of image and speech signal processing. They have becoming prolific in applications such as self driving cars and voice assitants like Siri and Alexa. Since the success of AlexNet, many deep learning networks like GoogleNet, ResidualNet etc have been introduced. These networks are highly competent in image classification however, they are very large in size and have a lot of parameters, for example, AlexNet has 60M parameters\cite{krizhevsky2012imagenet}. On-Off chip data transfer is a great engineering challenge that needs to be addressed while implementing CNN in hardware. Hardware Acceleration and parallelization are constrained by energy cost of reading and writing data from memory. For one forward pass during inference, one image needs to go through to all the CNN layers and be classified into a softmax determined category. During this process, the memory bandwidth is used by three types of payloads that need to be moved on and off-chip - input image, intermediate feature maps, and filter weights. This research is focused on reducing weight-related memory traffic that occurs between off-chip memory and on-chip buffers \color{red}during inference \color{black}. In this paper, we propose a technique named `weight sharing selective transfer' (WS-ST) that uses processing in-memory architecture to selectively transfer weights from the DRAM memory structure to the computation unit. \color{red} A model for the PIM is created for the purpose of this analysis. \color{black}We observe a $30\%$ decrease in memory transfer traffic compared to a non-selective approach for AlexNet. We achieve this by implementing a selector logic in the DRAM itself. This logic helps us select the weights that need to be updated and avoid the transfer if the weight value is the same. 
+Convolutional Neural Networks (CNN) have changed the direction of image and speech signal processing. They have becoming prolific in applications such as self driving cars and voice assitants like Siri and Alexa. Since the success of AlexNet, many deep learning networks like GoogleNet, ResidualNet etc have been introduced. These networks are highly competent in image classification however, they are very large in size and have a lot of parameters, for example, AlexNet has 60M parameters\cite{krizhevsky2012imagenet}. On-Off chip data transfer is a great engineering challenge that needs to be addressed while implementing CNN in hardware. Hardware Acceleration and parallelization are constrained by energy cost of reading and writing data from memory. For one forward pass during inference, one image needs to go through to all the CNN layers and be classified into a softmax determined category. During this process, the memory bandwidth is used by three types of payloads that need to be moved on and off-chip - input image, intermediate feature maps, and filter weights. This research is focused on reducing weight-related memory traffic that occurs between off-chip memory and on-chip buffers \color{red}during inference \color{black}. In this paper, we propose a technique named `weight sharing selective transfer' (WS-ST) that uses processing in-memory architecture to selectively transfer weights from the DRAM memory structure to the computation unit. \color{red} We emulate a PIM architecture by having a self populating FIFO as a part of Selective DRAM controller.\color{black}We observe a $30\%$ decrease in memory transfer traffic compared to a non-selective approach for AlexNet. We achieve this by implementing a selector logic in the DRAM itself. This logic helps us select the weights that need to be updated and avoid the transfer if the weight value is the same. 
  
 
 
@@ -436,7 +436,7 @@ Although hardware acceleration on FPGAs is lucrative, there are unique engineeri
 \end{tabular}
 \end{table}
 
-\color{magenta} This is where I would include some number about memory read/write power consumption numbers after some research \color{black}
+ \color{black}
 There are many popular dense CNN Accelerator designs for FPGAs \cite{chakradhar2010dynamically,zhang2015optimizing,Eyeriss}.
 The techniques commonly used in dense architectures are loop blocking, loop unrolling and data stationary operations and data reuse. 
 
@@ -527,28 +527,27 @@ we are able to find more redundancy with smaller granularity. Both figures \ref{
 Looking at the result, we chosoe the 4 bit granularity as it exploits a good amount redundancy while being manageable in terms of hardware engineering. The savings with 4 bit weights and 4 bit granularity is described in table \ref{Red_Anal}.
 
 \color{red}
-The combined process of pruning combined with quantization of weights from 32 bit to 5 bits in \cite{han2015deep} results in networks that can potentially fit on the on-chip SRAM rather than the offchip DRAM while maintaining the accuracy nearly the same. Thus we use pruned weights that we quantize into 4bits. They will remain static for the purpose of this research.
+The combined process of pruning combined with quantization of weights from 32 bit to 5 bits in \cite{han2015deep} results in networks that can potentially fit on the on-chip SRAM rather than the offchip DRAM while maintaining the accuracy nearly the same. Thus we use pruned weights that we quantize into 4 bits. We focus on just 4 bit precision for the purpose of this research. The Table \ref{comp_acc} defines the accuracy performance of compressed weights as a result of the pruning  and quantization technique of deep compression \cite{han2015deep}.
 
-\begin{table*}[!hb]
+\begin{table*}[!h]
 \centering
+\caption{Accuracy performance of after pruning and quantization of weights \cite{hand2015deep}}
 \begin{tabular}{cccccc}
 \hline
 			& orignial & Compressed & Compression & Original & Compressed \\
-Network    & size(MB)& size(MB)   & Ratio & Accuracy & Accuracy   \\ \hline
+Network    & size (MB)& size( MB)   & Ratio & Accuracy & Accuracy   \\ \hline
 AlexNet    & 240           & 6.9             & 35x               & 80.27\%  & 80.30\%    \\
 VGGNet     & 550           & 11.3            & 49x               & 88.68\%  & 89.09\%    \\
 GooglNet   & 28            & 2.8             & 10x               & 88.90\%  & 88.92\%    \\
 SqueezeNet & 4.8           & 0.47            & 10x               & 80.32\%  & 80.35\%    \\ \hline
 \end{tabular}
+\label{comp_acc}
 \end{table*}
 
+
 \color{black}
 
-\color{magenta}
-I  need to mention the accuracy observed as a result of weight sharing and selective weight transfer and compare it against some baselines and other methods such as quantization and pruning.
-\color{black}
-
-\begin{table*}[!ht]
+\begin{table*}[!hbt]
 \centering
 \caption{Redundancy Analysis for 4 bit weights with 4 bit granularity}
 \label{Red_Anal}
